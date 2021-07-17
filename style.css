@@ -119,6 +119,78 @@ input, textarea {
 .nav-item:nth-child(3) {
     background: #5221e6;
 }
+.projects .h1{
+    font-size: 55px;
+}
+.projects .h5{
+    font-size: 16px ;
+}
+.projects .card{
+    background: #181823;
+    text-align: center;
+    cursor: pointer;
+}
+.projects .card-text{
+    max-width: 22rem;
+    margin: auto;
+}
+.projects .card-body{
+    position: relative;
+}
+.projects .button-project button{
+    height: 4rem;
+    width: 15rem;
+    border: 0.16rem solid #5221e6;
+}
+.projects button:hover{
+    background: #5221e6;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5221E6;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.instagram .text-content {
+    background-color: #FBE4FF;
+}
+.instagram img {
+    max-width: 100%;
+}
+.instagram p {
+    color: #5b6876;
+    font-size: 18px;
+    text-align: justify;
+}
+.instagram a{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.3rem;
+    text-decoration: none;
+    color: black;
+    padding-top: auto;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #000;
+    width: 7.5rem;
+    height: 3rem;
+    justify-content: left;
+}
+.instagram a:hover{
+    border: none;
+    color: white;
+    width: 10rem;
+    justify-content: center;
+    background: #5221E6;
+    transition: width 1s;
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 40px;
